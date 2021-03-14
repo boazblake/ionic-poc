@@ -1,7 +1,8 @@
 {
-  "name": "wheres-my-show",
+  "name": "ionic-poc",
   "integrations": {
     "capacitor": {}
   },
-  "type": "custom"
+  "type": "custom",
+  "id": "44133327"
 }
