@@ -53,13 +53,13 @@ exports.plugins = {
   },
   babel: {
     // ignore: [/^(vendor)/, /^node_modules\/(?!@ionic)/],
-  //   plugins:[
-  //   ["@babel/plugin-transform-runtime",
-  //     {
-  //       "regenerator": true
-  //     }
-  //   ]
-  // ],
+    //   plugins:[
+    //   ["@babel/plugin-transform-runtime",
+    //     {
+    //       "regenerator": true
+    //     }
+    //   ]
+    // ],
     presets: [
       [
         "@babel/preset-env",
@@ -97,11 +97,11 @@ exports.plugins = {
 
 exports.paths = {
   public: "docs",
-  watched: ["app", "app/components", "app/pages", "app/assets", "app/Models"],
+  watched: ["app", "app/assets"],
 }
 
 exports.npm = {
-  compilers: ['babel-brunch'],
+  compilers: ["babel-brunch"],
   enabled: true,
   globals: { m: "mithril", Stream: "mithril-stream" },
 }
